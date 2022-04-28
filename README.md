@@ -12,13 +12,15 @@ Actual time needed to complete: 1 hour
 
 Number and name of feature: Feature 2 Allow users to vote for their favorite beast
 
-Estimate of time needed to complete: 50 mins
+Estimate of time needed to complete: 1.5 hours
 
-Start time: _____
+Authors: Martha, Natalija
 
-Finish time: _____
+Start time: 10:00pm
 
-Actual time needed to complete: _____
+Finish time: 12:00am
+
+Actual time needed to complete: 2 hours
 
 
 
