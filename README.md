@@ -14,13 +14,13 @@ Number and name of feature: Feature 2 Allow users to vote for their favorite bea
 
 Estimate of time needed to complete: 1.5 hours
 
-Authors: Martha, Natalija
+Authors: Martha, Sarah and TA - Joey 
 
-Start time: 10:00pm
+Start time: 7pm
 
-Finish time: 12:00am
+Finish time: 10:17pm
 
-Actual time needed to complete: 2 hours
+Actual time needed to complete: 3 hours
 
 
 
