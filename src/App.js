@@ -9,9 +9,9 @@ class App extends React.Component {
   render() {
     return (
       <div className="App">
-        <Header title="The Horned Beast!" />
-        <Main imageURLs={imageURLs} message={"Click for your favorite horned beast!"}/>
-         <Footer text={"Your vote matters!"} />
+        <Header title="🐐 The Horned Beasts! 🦌" />
+        <Main imageURLs={imageURLs} message={"Vote for your favorite horned beast!"}/>
+         <Footer text={"🫵 Your vote matters! 🫵"} />
 
       </div>
     );

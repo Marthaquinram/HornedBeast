@@ -21,15 +21,19 @@ class BeastImage extends React.Component {
       this.setState({ status: "Thats a vote for me 🙋‍♀️!"});
     }
   }
+  
+  
   render() {
+    // console.log('this beastImages.js this.props', this.props);
     return (
       <>
-      <Card style={{ width: '18rem' }} onClick={() => this.handleClick(this.props)}>
+      <Card style={{ width: '18rem' }} onClick={() => this.handleClick(this.props)} className="beast">
   <Card.Img src={this.props.image} alt={this.props.description} title={this.props.title}  /> 
       
   <Card.Body>
     <Card.Title as="h2">{this.props.title} </Card.Title>
     <Card.Text> <BalloonHeartFill /> {this.state.clicks} </Card.Text>
+    <Card.Text>{this.props.description} </Card.Text>
     <Button variant="primary">{this.state.status}{this.setState}</Button>
   </Card.Body>
 </Card>
