@@ -29,11 +29,13 @@ Number and name of feature: Feature 3 Bootstrap
 
 Estimate of time needed to complete: 50 mins
 
-Start time: _____
+Authors: Martha, Charlie (classmate)
 
-Finish time: _____
+Start time: 9:29pm
 
-Actual time needed to complete: _____
+Finish time: 10:24pm
+
+Actual time needed to complete: 55mins
 
 
 
