@@ -1,14 +1,36 @@
 .App {
   text-align: center;
-  color:black;
+  color:white;
   font-weight: bolder;
+  background-color: #2a312a;
 }
 
 .beast{
   display: inline-flex;
-  background-color: rgba(111, 132, 239, 0.822);
+  /* background-color: rgba(4, 41, 246, 0.822); */
+  /* background-image: linear-gradient(red, yellow);
+   */
+   background-color: #455B46;
   margin-top: 5%;
   margin-bottom: 5%;
+  /* margin-left: auto; */
   padding: auto;
-  border: 5px solid rgb(93, 4, 237);
+  border: 5px solid #ED5005;
+
+}
+h3{
+  margin-top: 5rem;
+  margin-bottom: 30px;
+  font-size: xx-large;
+  color: #F7631C;
+}
+p{
+  color:#F7631C;
+  font-size: large;
+  font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+#button{
+  color:#F7631C;
+  background-color: white;
+  border: white;
 }

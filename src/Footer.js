@@ -6,7 +6,7 @@ class Footer extends React.Component {
     return (
       <>
       <h3>{this.props.text}</h3>
-      <p>Martha Quintanilla-Ramirez</p>
+      <p>Author: Martha Quintanilla-Ramirez</p>
 
       </>
     )

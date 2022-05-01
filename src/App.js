@@ -10,7 +10,7 @@ class App extends React.Component {
     return (
       <div className="App">
         <Header title="🐐 The Horned Beasts! 🦌" />
-        <Main imageURLs={imageURLs} message={"Vote for your favorite horned beast!"}/>
+        <Main imageURLs={imageURLs} message={"Vote for your favorite horned beast!🗳️"}/>
          <Footer text={"🫵 Your vote matters! 🫵"} />
 
       </div>

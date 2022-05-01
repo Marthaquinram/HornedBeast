@@ -4,6 +4,7 @@ import React from 'react';
 import Card from 'react-bootstrap/esm/Card';
 import Button from 'react-bootstrap/Button';
 import { BalloonHeartFill } from 'react-bootstrap-icons';
+import { Container } from 'react-bootstrap';
 
 class BeastImage extends React.Component {
   constructor(props){
@@ -15,27 +16,27 @@ class BeastImage extends React.Component {
   }
 
   handleClick = () =>{
-    if(this.state.status === "Thats a vote for me 🙋‍♀️!"){
-      this.setState({clicks: this.state.clicks + 1})
-    } else{
-      this.setState({ status: "Thats a vote for me 🙋‍♀️!"});
-    }
-  }
+    // if(this.state.status === "Thats a vote for me 🙋‍♀️!"){
+      this.setState({clicks: this.state.clicks + 1, status: "Thats a vote for me 🙋‍♀️!"})
+    } 
+  
   
   
   render() {
     // console.log('this beastImages.js this.props', this.props);
     return (
       <>
-      <Card style={{ width: '18rem' }} onClick={() => this.handleClick(this.props)} className="beast">
+      <Card style={{ width: '18rem' }}  className="beast h-100">
+        <Container>
+    <Card.Title as="h2">{this.props.title} </Card.Title>
   <Card.Img src={this.props.image} alt={this.props.description} title={this.props.title}  /> 
       
   <Card.Body>
-    <Card.Title as="h2">{this.props.title} </Card.Title>
     <Card.Text> <BalloonHeartFill /> {this.state.clicks} </Card.Text>
     <Card.Text>{this.props.description} </Card.Text>
-    <Button variant="primary">{this.state.status}{this.setState}</Button>
+    <Button id="button" variant="primary" onClick={() => this.handleClick(this.props)}> {this.state.status}{this.setState}</Button>
   </Card.Body>
+  </Container>
 </Card>
       {/* <Container> */}
        {/* <Image src={this.props.image} alt="The beaties and the horned beast" onClick={this.handleClick} /> 
