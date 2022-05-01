@@ -20,7 +20,7 @@ Start time: 7pm
 
 Finish time: 10:17pm
 
-Actual time needed to complete: 3 hours
+Actual time needed to complete: 4 hours
 
 
 
@@ -40,12 +40,13 @@ Actual time needed to complete: 55mins
 
 
 
-Number and name of feature: Feature 4 Add Interaction
+Number and name of feature: Passing Functions in Props
 
-Estimate of time needed to complete: 50 mins
+Estimate of time needed to complete: 60 mins
+Authors: Martha, Natalija
 
-Start time: _____
+Start time: 9:52pm
 
-Finish time: _____
+Finish time: 11:35pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 1.5 hrs
