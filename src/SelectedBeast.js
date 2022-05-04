@@ -1,22 +1,26 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-// import BeastImage from './BeastImage';
+// import { Card } from "react-bootstrap";
+import Image from 'react-bootstrap/Image';
 
 class SelectedBeast extends React.Component {
   render() {
     return (
       <>
-        <Modal show={this.props.showModal} onHide={this.props.handleCloseModal}>
+        <Modal show={this.props.show} onHide={this.props.handleClose}>
           <Modal.Header closeButton>
-            <Modal.Title> {this.props.title}</Modal.Title>
+            <Modal.Title> {this.props.selectedBeast.title}</Modal.Title>
           </Modal.Header>
-          <Modal.Body>
-            {this.props.description}
-            <img src={this.props.src} alt={this.props.title} />{" "}
-          </Modal.Body>
+          <Image 
+          src={this.props.selectedBeast.image_url} 
+          alt={this.props.selectedBeast.description} 
+          title={this.props.selectedBeast.title}
+          />
+          <Modal.Body> {this.props.selectedBeast.description}</Modal.Body>
+          <Modal.Body> Number of Horns {this.props.selectedBeast.horns}</Modal.Body>
           <Modal.Footer>
-            <Button variant="secondary" onClick={this.props.handleCloseModal}>
+            <Button variant="secondary" onClick={this.props.handleClose}>
               Close
             </Button>
           </Modal.Footer>
