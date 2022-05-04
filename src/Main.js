@@ -1,7 +1,7 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
 // import HornedBeast from './HornedBeast';
-import BeastImage from './BeastImage';
+import HornedBeast from './HornedBeast';
 
 
 class Main extends React.Component {
@@ -12,13 +12,14 @@ class Main extends React.Component {
    <Row sm={2} md={3} lg={4}>
      {this.props.imageURLs.map(beastImg => (
        <Col>
-     <BeastImage 
-     image={beastImg.image_url}
+     <HornedBeast 
+     key={beastImg._id}
      title={beastImg.title}
+     image={beastImg.image_url}
      description={beastImg.description}
      keyword={beastImg.keyword}
      horns={beastImg.horns}
-     key={beastImg._id}
+     handleOpenModal={this.props.handleOpenModal}
      />
      </Col>
      ))}
