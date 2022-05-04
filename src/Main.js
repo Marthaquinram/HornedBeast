@@ -1,6 +1,5 @@
 import React from 'react';
 import { Col, Row } from 'react-bootstrap';
-// import HornedBeast from './HornedBeast';
 import HornedBeast from './HornedBeast';
 
 
@@ -25,7 +24,7 @@ class Main extends React.Component {
      ))}
      
 
-     {/* {imgBeasts}  */}
+   
      </Row>
       
       </>

@@ -1,7 +1,6 @@
 import React from "react";
 import Modal from "react-bootstrap/Modal";
 import Button from "react-bootstrap/Button";
-// import { Card } from "react-bootstrap";
 import Image from 'react-bootstrap/Image';
 
 class SelectedBeast extends React.Component {
