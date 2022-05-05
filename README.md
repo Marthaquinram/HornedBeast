@@ -43,6 +43,7 @@ Actual time needed to complete: 55mins
 Number and name of feature: Passing Functions in Props
 
 Estimate of time needed to complete: 60 mins
+
 Authors: Martha, Natalija
 
 Start time: 9:52pm
@@ -52,6 +53,8 @@ Finish time: 11:35pm
 Actual time needed to complete: 1.5 hrs
 
 Number and name of feature: Forms and Filter
+
+
 
 Estimate of time needed to complete: 60 mins
 
