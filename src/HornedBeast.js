@@ -5,7 +5,7 @@ import Card from "react-bootstrap/esm/Card";
 import Button from "react-bootstrap/Button";
 import { BalloonHeartFill } from "react-bootstrap-icons";
 import { Container } from "react-bootstrap";
-import SelectedBeast from "./SelectedBeast";
+// import SelectedBeast from "./SelectedBeast";
 
 class HornedBeast extends React.Component {
   constructor(props) {
