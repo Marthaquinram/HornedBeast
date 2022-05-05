@@ -50,3 +50,15 @@ Start time: 9:52pm
 Finish time: 11:35pm
 
 Actual time needed to complete: 1.5 hrs
+
+Number and name of feature: Forms and Filter
+
+Estimate of time needed to complete: 60 mins
+
+Authors: Martha, Zayah, Natalija, Sarah
+
+Start time: 8:45pm
+
+Finish time: 10:45pm
+
+Actual time needed to complete: 2 hours

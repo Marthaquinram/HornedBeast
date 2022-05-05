@@ -1,11 +1,9 @@
 import React from "react";
-// import Container from 'react-bootstrap/Container';
-// import Image from 'react-bootstrap/Image';
 import Card from "react-bootstrap/esm/Card";
 import Button from "react-bootstrap/Button";
 import { BalloonHeartFill } from "react-bootstrap-icons";
 import { Container } from "react-bootstrap";
-import SelectedBeast from "./SelectedBeast";
+
 
 class HornedBeast extends React.Component {
   constructor(props) {
@@ -18,16 +16,8 @@ class HornedBeast extends React.Component {
 
   handleClick = () => {
     this.setState({ clicks: this.state.clicks + 1, status: "Thats a vote for me 🙋‍♀️!"});
-    // this.props.handleOpenModal();
+    
   };
-
-
-  // handleCloseModal = () => {
-  //   this.setState({ showModal: false });
-  // };
-  // handleShowModal = () => {
-  //   this.setState({ showModal: true });
-  // };
 
   render() {
   
